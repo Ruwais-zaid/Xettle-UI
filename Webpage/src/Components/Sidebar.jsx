@@ -1,19 +1,12 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { MdAddHome } from "react-icons/md";
 import { TbReport } from "react-icons/tb";
 import { GoStack } from "react-icons/go";
 import { CiFolderOn } from "react-icons/ci";
 import { FiUsers } from "react-icons/fi"; 
 import { IoIosArrowDown } from "react-icons/io";
-import { ImCross } from "react-icons/im";
 
-const Sidebar = ({closeToggle}) => {
-   const handleCloseSidebar=()=>{
-    if(closeToggle){
-        closeToggle(false);
-    }
-
-   } 
+const Sidebar = () => {
     const [isDrop1, setIsDrop1] = useState(false);
     const [isDrop2, setIsDrop2] = useState(false);
 

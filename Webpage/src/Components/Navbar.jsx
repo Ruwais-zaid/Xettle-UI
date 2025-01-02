@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { FaBars } from "react-icons/fa6";
+import  { useState } from 'react';
 import { IoIosLogOut } from "react-icons/io";
 import { GoScreenFull } from "react-icons/go";
 import { BsThreeDots } from "react-icons/bs";

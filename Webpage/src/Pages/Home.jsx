@@ -1,5 +1,3 @@
-import React from 'react'
-
 import Navbar  from '../Components/Navbar'
 import { IoIosRefresh } from "react-icons/io";
 import { MdOutlinePayments } from "react-icons/md";
